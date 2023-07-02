@@ -5,7 +5,7 @@
 ## Andrew Andreev
 
 ---
-![my photo](images/20230702.jpg)
+![my photo](images/20230702.png)
 
 ---
 
