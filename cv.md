@@ -5,11 +5,14 @@
 ## Andrew Andreev
 
 ---
+![my photo](images/20230702_161430.jpg)
+
+---
 
 ### My Contacts
 
 * __Location:__ Yaroslavl,Russia
-* __Email:__  aae1978@gmail.com
+* __Email:__  [aae1978](aae1978@gmail.com)
 * __Github:__ [Andrew Andreev](https://github.com/AndrewAndreev2019)
 * __Telegram:__ @wAvAvAw
 * __Discord:__ andyarr(@AndrewAndreev2019)
@@ -37,13 +40,13 @@ Modern Humanitarian Academy (Informatics and Computing Engineering)
 ### Code Example
 
 ``` 
-    function paperwork(n, m) {
-     if(n<0)
-       return 0;
-     else if(m<0)
-       return 0;
-     else return n*m;
-    };
+function paperwork(n, m) {
+  if(n<0)
+   return 0;
+ else if(m<0)
+   return 0;
+ else return n*m;
+ };
 ```
 
 ---
