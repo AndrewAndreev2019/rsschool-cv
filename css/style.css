@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/static/Montserrat-Bold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../assets/fonts/static/Montserrat-Regular.ttf");
+  font-weight: 300;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding: 5px 30px;
+  margin-bottom: 30px;
+  background-color: #92f5ab7c;
+}
+
+.cv-logo {
+  height: 70px;
+  margin-right: 25px;
+}
+
+.my-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color: #32343d;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #bd3737;
+  transition: color .5s;
+}
+
+
+main  {
+  padding: 0 30px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section {
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding: 5px 0;
+  border-top: 2px solid #dfeedb;
+}
+
+.section:first-child {
+  height: 170px;
+  padding-bottom: 30px;
+  border-top: 0; 
+}
+
+.my-section-title {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.my-section-info {
+  width: 50%;
+}
+
+.circle-image{
+  display: inline-block;
+  overflow: hidden;
+  width: 200px;
+  padding-bottom: 200px;
+  height: 0;
+  position: relative;
+}
+
+.circle-image img{
+width:100%;
+height:100%;
+position: absolute;
+border-radius: 50%;
+object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  line-height: 15px;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #bd3737;
+  border-radius: 50%;
+}
+footer {
+  height: 80px;
+  padding: 0 30px;
+  background-color: #92f5ab7c;
+}
+.github-image {
+  width: 64px;
+  height: 64px;
+}
+.rsschool-image {
+  width: 64px;
+  height: 64px;
+}
+
+
+@media (max-width: 768px) {
+  .my-section {
+    width: 100%;
+  }
+}
